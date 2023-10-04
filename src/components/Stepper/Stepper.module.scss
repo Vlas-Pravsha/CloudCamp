@@ -1,0 +1,68 @@
+.stepList {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.stepItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progresCount {
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  border-radius: 100px;
+  background-color: #a6a6a6;
+  color: transparent;
+  width: 16px;
+  height: 16px;
+}
+.progresText {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.line {
+  color: black;
+  background-color: black;
+  border-top: 8px;
+  width: 120px;
+}
+.lineMain {
+  position: absolute;
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.08);
+  height: 8px;
+  top: 3px;
+}
+
+.doneLine {
+  border-radius: 8px;
+  background: #5558fa;
+  height: 8px;
+}
+.stepActive {
+  .progresCount {
+    border-radius: 100px;
+    border: #5558fa 6px solid;
+    background-color: #fff;
+  }
+  .progresText {
+    color: #5558fa;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+  }
+}
+.stepChecked {
+  .progresCount {
+    background-image: url(../../assets/img/Check.png);
+    background-color: #5558fa;
+  }
+}

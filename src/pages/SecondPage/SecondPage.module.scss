@@ -1,0 +1,32 @@
+.wrap {
+  max-width: 680px;
+  margin: 0 auto;
+}
+.inputsWrap {
+  margin-top: 66px;
+}
+
+.buttonsWrap {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 65px;
+  padding-bottom: 80px;
+}
+
+.addAdvantage {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.deleteImg {
+  height: 20px;
+  width: 20px;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.checkboxTitle {
+  margin-top: 24px;
+}

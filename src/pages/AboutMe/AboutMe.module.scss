@@ -1,0 +1,44 @@
+.wrap {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  gap: 24px;
+  padding-bottom: 291px;
+}
+.title {
+  font-family: SB Sans Interface;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-top: 25px;
+}
+.link {
+  font-family: SB Sans Interface;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--purple-color);
+  margin-top: 8px;
+  display: flex;
+  gap: 4px;
+}
+.line {
+  color: #000;
+  width: 852px;
+}
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin-top: 25px;
+}
+.nameWrap {
+  display: flex;
+  gap: 16px;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: 48px;
+}
